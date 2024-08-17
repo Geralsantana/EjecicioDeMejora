@@ -27,7 +27,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Información del Coche</h1>
+        <h1 class="text-center mb-4">Información del Coche POO</h1>
 
         <?php
         class Coche {
@@ -91,7 +91,7 @@
         }
 
         // Instanciamos el objeto coche
-        $coche = new Coche('Toyota', 'Corolla', 2023, 'Rojo', 20000);
+        $coche = new Coche('Toyota', 'Corolla', 2023, 'Rojo', 20000, 50);
         $coche->mostrarInformacion();
 
         if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['descuento'])) {

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MarcaTest::testObtenerMarca":7},"times":{"MarcaTest::testObtenerMarca":0.008,"MarcaTest::testObtenerModelo":0,"MarcaTest::testObtenerAno":0,"MarcaTest::testObtenerColor":0,"MarcaTest::testObtenerPrecio":0,"MarcaTest::testCalcularDescuento":0.002}}

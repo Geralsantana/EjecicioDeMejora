@@ -91,7 +91,7 @@
         }
 
         // Instanciamos el objeto coche
-        $coche = new Coche('Toyota', 'Corolla', 2023, 'Rojo', 20000, 50);
+        $coche = new Coche('Toyota', 'Corolla', 2023, 'Rojo', 20000);
         $coche->mostrarInformacion();
 
         if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['descuento'])) {
